@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой Сайт-Визитка</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">МойСайт</div>
+            <ul class="nav-links">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Привет, я Иван</h1>
+            <p>Веб-разработчик и дизайнер</p>
+            <button class="cta-button">Узнать больше</button>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Обо мне</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Я занимаюсь созданием современных и красивых сайтов. Люблю чистый код и креативные решения.</p>
+                    <p>Работаю с HTML, CSS, JavaScript и различными фреймворками.</p>
+                </div>
+                <div class="about-image">
+                    <div class="placeholder-image">Фото</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Мои услуги</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Веб-разработка</h3>
+                    <p>Создание современных и адаптивных сайтов</p>
+                </div>
+                <div class="service-card">
+                    <h3>Дизайн</h3>
+                    <p>Разработка уникального дизайна для вашего проекта</p>
+                </div>
+                <div class="service-card">
+                    <h3>Консультации</h3>
+                    <p>Помощь в выборе технологий и решений</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Контакты</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>📧 email@example.com</p>
+                    <p>📞 +7 (999) 123-45-67</p>
+                    <p>📍 Москва, Россия</p>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Ваше имя" required>
+                    <input type="email" placeholder="Ваш email" required>
+                    <textarea placeholder="Ваше сообщение" rows="5" required></textarea>
+                    <button type="submit">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 МойСайт. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
